@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> form - Yudi Hokiana</title>
+</head>
+<body>
+
+<h2>Informasi diri </h2>
+<form action="index.html" method="get">
+    <label for="nama">Nama:</label><br>
+    <input type="text" id="nama" name="nama" required><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="jenis_kelamin">Jenis Kelamin:</label><br>
+    <input type="radio" id="pria" name="jenis_kelamin" value="pria">
+    <label for="pria">Pria</label><br>
+    <input type="radio" id="wanita" name="jenis_kelamin" value="wanita">
+    <label for="wanita">Wanita</label><br><br>
+
+    <label for="hobi">Hobi:</label><br>
+    <input type="checkbox" id="hobi1" name="hobi" value="membaca">
+    <label for="hobi1">Membaca</label><br>
+    <input type="checkbox" id="hobi2" name="hobi" value="olahraga">
+    <label for="hobi2">Olahraga</label><br>
+    <input type="checkbox" id="hobi3" name="hobi" value="bermain musik">
+    <label for="hobi3">Bermain Musik</label><br><br>
+
+    <label for="pesan">Kata kata hari ini:</label><br>
+    <textarea id="pesan" name="pesan" rows="4" cols="50"></textarea><br><br>
+
+    <button>
+        <input type="submit" value="Kirim">
+    </button>
+</form>
+
+</body>
+</html>
